@@ -1,6 +1,6 @@
 /*🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️ Task 1: Warm-up! 🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️*/
 
-/*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
+/*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTO GRADER WILL NOT WORK*/
 
 /*
 When doing these tasks, we recommend using console.log to test the output of your code to make sure it works correctly.
@@ -17,7 +17,9 @@ Do the following:
 
    HINT: no function required
 */
+
 var votingAge = 18;
+
 if (votingAge >= 18){
   console.log(true);
 }
@@ -33,8 +35,13 @@ Do the following:
 
    HINT: no function required
 */
-
-
+var varA = 5;
+var varB = 5;
+if (varA == varB){
+  let varA = 10
+  console.log(varA);
+}
+  
 
 
 
@@ -49,7 +56,11 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var yearBorn = 1999;
+  yearBorn.toString();
+  (1999).toString();
+  (1500+499).toString();
+  console.log(yearBorn);
 
 
 /*
@@ -61,10 +72,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
-
+console.log(multiply(3,4))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -150,7 +161,7 @@ function game(user, computer){
 /*
 Using the miles function below do the following:
   1. Receive a number of kilometers
-  2. Convert the number of kiolmeters received to miles
+  2. Convert the number of kilometers received to miles
   3. Return the number of miles
 */
 
