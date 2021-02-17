@@ -91,8 +91,9 @@ Do the following:
 function dogYears(humanYears){
    var dogYears = 7*humanYears;
 
-    return humanYears * 7;
+    return dogYears;
 }
+
 
 
 
@@ -110,20 +111,20 @@ Use the hungryDog function and feeding requirements below to do the following:
   Feeding Requirements:
 
   Adult Dogs 1 year and older 
-     up to 5 lbs - 5% of their body weight
-     6 - 10 lbs - 4% of their body weight 
-     11 - 15 lbs - 3% of their body weight 
-     > 15lbs - 2% of their body weight 
+     up to 5 lbs - 5% of their body weight .25lbs
+     6 - 10 lbs - 4% of their body weight  .24-.40lbs
+     11 - 15 lbs - 3% of their body weight .33-.45lbs
+     > 15lbs - 2% of their body weight     .30lbs +
 
   Puppies less than 1 year
-     2 - 4 months 10% of their body weight
+     2 - 4 months 10% of their body weight  
      4 - 7 months 5% of their body weight 
      7 - 12 months 4% of their body weight
     
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
+function hungryDog(age,weight){
     /*add your code here*/
   }
 
@@ -167,8 +168,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+   var tomiles = km*0.621371
+    return tomiles;
   }
 
 
